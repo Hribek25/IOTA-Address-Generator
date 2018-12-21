@@ -1,5 +1,5 @@
 # IOTA Address Generator
-Just another offline IOTA address generator focused on large bulks of addresses. It leverages data parallelism and so it tries to generate addresses as fast as it can.
+Just another multi-platform offline IOTA address generator focused on large bulks of addresses. It leverages data parallelism and so it generates addresses as fast as it can.
 
 ## Usage
 Just download the package from the release page.
