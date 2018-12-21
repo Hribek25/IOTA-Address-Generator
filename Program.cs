@@ -35,7 +35,8 @@ namespace IOTAAddressGenerator
                 {
                     Console.WriteLine($"{item.Key}={item.Value ?? "<not default value>"}");
                 }
-                Console.WriteLine("Seed is a mandatory input either via \"seed\" or \"seedinfile\" parameters.");
+                Console.WriteLine();
+                Console.WriteLine("Please note: Seed is a mandatory input either via \"seed\" or \"seedinfile\" parameters.");
                 Console.WriteLine("Exiting...");
                 return;
             }
@@ -70,7 +71,8 @@ namespace IOTAAddressGenerator
 
             if (CmdParams["seed"] is null)
             {
-                Console.WriteLine("ERROR: Please specify a Seed. Exiting...");
+                Console.WriteLine("ERROR: Please specify a Seed or run the program with --help parameter.");
+                Console.WriteLine("Exiting...");
                 return;
             }
             else
