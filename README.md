@@ -1,5 +1,8 @@
-# IOTA-Address-Generator
-Just another offline IOTA address generator focused on large bulks of addresses. Just download the package from the release page.
+# IOTA Address Generator
+Just another offline IOTA address generator focused on large bulks of addresses. It leverages data parallelism and so it tries to generate addresses as fast as it can.
+
+## Usage
+Just download the package from the release page.
 
 Requirements: dotnet core runtime
 
